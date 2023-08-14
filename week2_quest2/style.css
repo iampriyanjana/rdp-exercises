@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(201, 90, 201);
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+}
+
+#btn1{
+    margin: 20px;
+    background-color: pink;
+}
+#btn2{
+    margin: 20px;
+    background-color: pink;
+}
+.hidden{
+    display: none;
+}
+#textfield{
+    margin: 6px;
+    color: red;
+}
+#textfield2{
+    margin: 6px;
+    color: red;
+}
