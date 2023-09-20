@@ -1,0 +1,100 @@
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 10px;
+  padding: 7px;
+}
+.menu{
+  display: flex;
+}
+.menu li{
+  padding: 7px;
+}
+.heading{
+  font-weight: 400;
+  font-size: 50px;
+}
+h1{
+  margin: 3px;
+}
+.next{
+  font-weight: 100;
+  margin: 10px;
+  font-size: 15px;
+}
+.butt{
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80px;
+}
+.container2{
+  display: flex;
+}
+.parent1{
+  background-color:rgb(15, 172, 224);
+  position:relative;
+  width:220px;
+  height:220px;
+  border-radius:30px;
+  margin: 5px;
+}
+.child-one{
+  background-color:pink;
+  position:absolute;
+  top:7px;
+  left:5px;
+  right:8px;
+  bottom:7px;
+  border-radius:50%;
+  height:207px;
+  width:207px;
+}
+.parent2{
+  background-color:rgb(228, 89, 228);
+  position:relative;
+  width:220px;
+  height:220px;
+  border-radius:30px;
+  margin: 5px;
+}
+.child-two{
+  background-color:greenyellow;
+  position:absolute;
+  top:40px;
+  left:40px;
+  right:20px;
+  bottom:25px;
+  height: 140px;
+  width: 140px;
+  transform: rotate(45deg);
+}
+.parent3{
+  background-color:yellow;
+  position:relative;
+  width:220px;
+  height:220px;
+  border-radius:30px;
+  margin: 5px;
+}
+
+.parent4{
+  background-color:rgb(137, 225, 133);
+  position:relative;
+  width:220px;
+  height:220px;
+  border-radius:30px;
+  margin: 5px;
+}
+
+.icon{
+  display: flex;
+}
+.rotate-svg{
+  transform: rotate(25deg);
+  transform-origin: 50% 50%;
+}
